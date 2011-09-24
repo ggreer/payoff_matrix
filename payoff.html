@@ -1,0 +1,38 @@
+$def with (data)
+
+<html>
+<head>
+<style media="screen" type="text/css">
+td
+{
+  padding: 2px;
+  background-color: #ddd;
+}
+</style>
+</head>
+<body>
+<h1>$data.title</h1>
+<table>
+  <tr>
+    <td></td>
+    <td>$data.left</td>
+    <td>$data.right</td>
+  </tr>
+  <tr>
+    <td>$data.up</td>
+    <td>$data.payoff_up_left</td>
+    <td>$data.payoff_up_right</td>
+  </tr>
+  <tr>
+    <td>$data.down</td>
+    <td>$data.payoff_down_left</td>
+    <td>$data.payoff_down_right</td>
+  </tr>
+</table>
+<p>
+<a href="">Copy this link to share this matrix.</a>
+<a href="./">Generate another payoff matrix.</a>
+</p>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+<html>
+<head>
+<style media="screen" type="text/css">
+td
+{
+  padding: 2px;
+  background-color: #ddd;
+}
+</style>
+</head>
+<body>
+<form action="payoff" method="GET">
+<h1>Title <input type="text" name="title" /></h1>
+<table>
+  <tr>
+    <td></td>
+    <td>Left <input type="text" name="left" /></td>
+    <td>Right <input type="text" name="right" /></td>
+  </tr>
+  <tr>
+    <td>Up <input type="text" name="up" /></td>
+    <td>Payoff up-left <input type="text" name="payoff_up_left" /></td>
+    <td>Payoff up-right <input type="text" name="payoff_up_right" /></td>
+  </tr>
+  <tr>
+    <td>Down <input type="text" name="down" /></td>
+    <td>Payoff down-left <input type="text" name="payoff_down_left" /></td>
+    <td>Payoff down-right <input type="text" name="payoff_down_right" /></td>
+  </tr>
+</table>
+<input type="submit" value="Generate!" />
+</form>
+</body>
+</html>
+
